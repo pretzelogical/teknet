@@ -1,0 +1,44 @@
+.index__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 220px;
+}
+.index__logo a {
+  padding: 80px;
+}
+
+.index__navigation nav {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 152px;
+}
+
+.index__navigationSearch form {
+  display: flex;
+  flex-flow: row;
+  padding: 5px;
+  gap: 5px;
+  width: 500px;
+}
+.index__navigationSearch form .index__navigationSearchField, .index__navigationSearch form .index__navigationSearchButton {
+  border: none;
+  border-radius: 50px;
+}
+.index__navigationSearch form .index__navigationSearchField {
+  background: #e0e0e0;
+  box-shadow: inset 27px 27px 54px #8f8f8f, inset -27px -27px 54px #ffffff;
+  flex-grow: 1;
+  font-size: 1.4rem;
+  padding: 14px;
+}
+.index__navigationSearch form .index__navigationSearchButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=index.css.map */

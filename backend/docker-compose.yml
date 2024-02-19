@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  sql:
+    image: teknet/sql
+    build: ./sql
+    environment:
+      - MYSQL_ROOT_PASSWORD=pass
+    ports:
+      - "3306:3306"
